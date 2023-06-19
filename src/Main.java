@@ -33,6 +33,8 @@ public class Main {
             } while (!done);
             done = false;  // Set done to false for the next do while loop
 
+            // Computing
+
             if (playA.equals("P")) {
                 if (playB.equals("R")) {
                     System.out.println("Paper covers Rock! Player A wins!");
@@ -70,6 +72,8 @@ public class Main {
                     System.out.println("Scissors vs Scissors! It's a Tie");
                 }
             }
+
+            // Continue playing as well as printing wins
             do {
                 System.out.print("Would you like too continue? [YN] ");
                 continueYN = in.nextLine();
