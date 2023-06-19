@@ -84,7 +84,6 @@ public class Main {
                     finished = true;
                 }
                 else if (continueYN.matches("[Y]")){
-                    System.out.println("Wins A: " + countA + " Wins B: " + countB);
                     finished = true;
                 }
             }while(!finished);
